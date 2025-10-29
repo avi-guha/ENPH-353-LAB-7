@@ -11,3 +11,10 @@ register(
     id='GazeboCartPole-v0',
     entry_point='gym_gazebo.envs.gazebo_cartpole:GazeboCartPolev0Env',
 )
+#linefollow
+register(
+	id='Gazebo_linefollow-v0',
+	entry_point='gym_gazebo.envs.gazebo_linefollow:Gazebo_Linefollow_Env',
+	max_episode_steps=3000,
+)
+
